@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
 body {
-  font-family: sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .left {
@@ -19,17 +23,12 @@ a:hover {
   color: #004F6D;
 }
 
-header {
-  max-width: 1024px;
-  margin: auto;
-}
 
 nav {
-  margin: 0;
-  padding: 15px 0 10px;
-  font-weight: 400;
-  text-align: center;
-  border-bottom: 1px solid #F2F2F2;
+  padding: 2rem 4rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a {
@@ -186,4 +185,13 @@ tr:hover {background-color: #ddd;}
     text-align: left;
     background-color: #4CAF50;
     color: white;
+}
+
+.container{
+  max-width: 1024px;
+  margin: auto;
+}
+
+.bg-green{
+  background-color: #27AE60;
 }
